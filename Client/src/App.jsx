@@ -8,6 +8,7 @@ import themes from './styles/themes';
 import SignIn from './pages/SignIn/SignIn';
 import Home from './pages/Home/Home';
 import Header from './components/Header';
+
 function App() {
   const theme = responsiveFontSizes(createTheme(themes));
   return (
