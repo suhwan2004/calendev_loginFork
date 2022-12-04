@@ -166,8 +166,8 @@ const StyledButtonWrapper = styled(Stack)`
     gap: ${(props) => props.theme.spacing(2)};
     .headerIconButton {
       svg {
-        width: 24px;
-        height: 24px;
+        width: 26px;
+        height: 26px;
       }
     }
   }
@@ -179,7 +179,7 @@ const StyledAppBar = styled(AppBar)`
   padding: 0 ${(props) => props.theme.spacing(1.5)};
 
   .headerLogoIconButton {
-    gap: ${(props) => props.theme.spacing(1.5)};
+    gap: ${(props) => props.theme.spacing(2)};
     padding-left: 0;
     padding-right: 0;
     img {
@@ -192,6 +192,7 @@ const StyledAppBar = styled(AppBar)`
     padding: 0 ${(props) => props.theme.spacing(1)};
 
     .headerLogoIconButton {
+      gap: ${(props) => props.theme.spacing(1)};
       img {
         width: 32px;
         height: 32px;
